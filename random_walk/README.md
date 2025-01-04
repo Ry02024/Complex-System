@@ -9,37 +9,45 @@
 - `random_walk_notebook.ipynb` … Google Colab用のJupyter Notebook
 - `images/` … 可視化結果のスクリーンショットやGIF
 
-## 🏃‍♂️ コードの説明
+## 🏃‍♂️ **実装例**
+以下は、`random_walk.py` を活用した Notebook で可視化したランダムウォークのアニメーションです。
+
 ```python
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
+import matplotlib.animation as animation
 import random
+from IPython.display import HTML
 
-# ステップ数と初期位置を設定
-num_steps = 100  # ステップ数
-x, y = [0], [0]  # 初期位置
+# --- `random_walk.py` の関数を定義 ---
+def random_walk(num_steps):
+    """2Dランダムウォークをシミュレーション"""
+    x, y = [0], [0]  # 初期位置
 
-# ランダムウォークのステップを計算する関数
-def random_walk(i):
-    dx, dy = random.choice([(1, 0), (-1, 0), (0, 1), (0, -1)])  # ランダムに方向を選択
-    x.append(x[-1] + dx)
-    y.append(y[-1] + dy)
-    line.set_data(x, y)
-    return line,
+    for _ in range(num_steps):
+        dx, dy = random.choice([(1, 0), (-1, 0), (0, 1), (0, -1)])
+        x.append(x[-1] + dx)
+        y.append(y[-1] + dy)
 
-# プロットの初期設定
-fig, ax = plt.subplots(figsize=(6, 6))
-ax.set_xlim(-num_steps // 2, num_steps // 2)
-ax.set_ylim(-num_steps // 2, num_steps // 2)
-ax.set_title("ランダムウォークのアニメーション")
-line, = ax.plot([], [], lw=2)
+    return x, y
 
-# アニメーションを設定
-ani = FuncAnimation(fig, random_walk, frames=num_steps, interval=100, blit=True)
+# ランダムウォークのアニメーション
+def animate_random_walk(num_steps=100):
+    x, y = [0], [0]
+    fig, ax = plt.subplots(figsize=(6, 6))
+    line, = ax.plot([], [], lw=2)
 
-# アニメーションを表示
-plt.show()
-```
+    def update(frame):
+        dx, dy = random.choice([(1, 0), (-1, 0), (0, 1), (0, -1)])
+        x.append(x[-1] + dx)
+        y.append(y[-1] + dy)
+        line.set_data(x, y)
+        return line,
+
+    ani = animation.FuncAnimation(fig, update, frames=num_steps, interval=100, blit=True)
+    return ani
+
+HTML(animate_random_walk().to_jshtml())
+
 
 ## 📌 参考リンク
 - [GitHubリポジトリトップ](../README.md)
