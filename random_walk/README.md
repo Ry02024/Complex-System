@@ -47,7 +47,7 @@ def animate_random_walk(num_steps=100):
     return ani
 
 HTML(animate_random_walk().to_jshtml())
-
+```
 
 ## 📌 参考リンク
 - [GitHubリポジトリトップ](../README.md)
