@@ -28,6 +28,16 @@
     ```
 2. `random_walk_notebook.ipynb` を Jupyter Notebook で開く（またはGoogle Colabで開く）
 
-## 📝 参考情報
-- **Qiita記事:** [ランダムウォーク解説](https://qiita.com/ry033rdqiita/items/0f5c99c90080f88d1860)
-- **GitHubリポジトリ:** [Complex-System](https://github.com/Ry02024/Complex-System)
+## 📌 関連リンク
+
+📌 **Qiita 記事（ランダムウォーク解説）**  
+➡ [Qiita記事を読む](https://qiita.com/your_qiita_link)
+
+📌 **Note 記事（DOI / CIDの活用）**  
+➡ [Noteで読む（有料記事）](https://note.com/)
+
+📌 **Booth で無料ダウンロード（GitHub ZIP）**  
+➡ [Booth（無料版）](https://complex-dynamics.booth.pm/items/6457102)
+
+📌 **Google Colab で実行**  
+➡ [Google Colab で開く](https://colab.research.google.com/github/Ry02024/Complex-System/blob/main/random_walk/random_walk.ipynb)
