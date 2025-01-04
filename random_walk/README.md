@@ -1,54 +1,33 @@
-# ランダムウォーク - Pythonによるシミュレーション
+# ランダムウォーク - Random Walk Simulation
 
-## 概要
-ランダムウォークは、ランダムな動きのシミュレーションであり、確率過程の基本モデルとして重要です。  
-このディレクトリには、Pythonを用いた2Dランダムウォークの実装が含まれています。
+ランダムウォークは、確率的な移動を繰り返すシミュレーションモデルです。  
+本プロジェクトでは、Pythonを用いてランダムウォークを実装し、可視化する方法を学べます。
 
-## 🔧 ファイル構成
-- `random_walk.py` … 2Dランダムウォークの基本実装
-- `random_walk_notebook.ipynb` … Google Colab用のJupyter Notebook
-- `images/` … 可視化結果のスクリーンショットやGIF
+## 📌 内容
+- ランダムウォークの基本理論
+- Pythonによるシミュレーション実装
+- 可視化の方法（Matplotlib）
+- 応用例（探索アルゴリズム、金融モデリング）
 
-## 🏃‍♂️ **実装例**
-以下は、`random_walk.py` を活用した Notebook で可視化したランダムウォークのアニメーションです。
+## 📂 ファイル構成
+| ファイル名 | 説明 |
+|------------|--------------------------------------------|
+| `random_walk.py` | Pythonスクリプト（コマンドラインで実行） |
+| `random_walk_notebook.ipynb` | Jupyter Notebook（Google Colab対応） |
 
-```python
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-import random
-from IPython.display import HTML
+## 🏆 ダウンロード
+本プロジェクトのコードは **GitHub** だけでなく、**Booth** でも無料配布しています。
 
-# --- `random_walk.py` の関数を定義 ---
-def random_walk(num_steps):
-    """2Dランダムウォークをシミュレーション"""
-    x, y = [0], [0]  # 初期位置
+- **GitHub（ソースコード）:** [こちら](https://github.com/Ry02024/Complex-System/tree/main/random_walk)
+- **Booth（ZIP形式）:** [無料ダウンロード](https://complex-dynamics.booth.pm/items/6457102)
 
-    for _ in range(num_steps):
-        dx, dy = random.choice([(1, 0), (-1, 0), (0, 1), (0, -1)])
-        x.append(x[-1] + dx)
-        y.append(y[-1] + dy)
+## 🔧 実行方法
+1. `random_walk.py` を実行
+    ```sh
+    python random_walk.py
+    ```
+2. `random_walk_notebook.ipynb` を Jupyter Notebook で開く（またはGoogle Colabで開く）
 
-    return x, y
-
-# ランダムウォークのアニメーション
-def animate_random_walk(num_steps=100):
-    x, y = [0], [0]
-    fig, ax = plt.subplots(figsize=(6, 6))
-    line, = ax.plot([], [], lw=2)
-
-    def update(frame):
-        dx, dy = random.choice([(1, 0), (-1, 0), (0, 1), (0, -1)])
-        x.append(x[-1] + dx)
-        y.append(y[-1] + dy)
-        line.set_data(x, y)
-        return line,
-
-    ani = animation.FuncAnimation(fig, update, frames=num_steps, interval=100, blit=True)
-    return ani
-
-HTML(animate_random_walk().to_jshtml())
-```
-
-## 📌 参考リンク
-- [GitHubリポジトリトップ](../README.md)
-- [Qiita記事](https://qiita.com/ry033rdqiita/items/0f5c99c90080f88d1860)
+## 📝 参考情報
+- **Qiita記事:** [ランダムウォーク解説](https://qiita.com/xxxx)
+- **GitHubリポジトリ:** [Complex-System](https://github.com/Ry02024/Complex-System)
