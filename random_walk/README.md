@@ -31,7 +31,7 @@
 ## 📌 関連リンク
 
 📌 **Qiita 記事（ランダムウォーク解説）**  
-➡ [Qiita記事を読む](https://qiita.com/your_qiita_link)
+➡ [Qiita記事を読む](https://qiita.com/ry033rdqiita/items/0f5c99c90080f88d1860)
 
 📌 **Note 記事（DOI / CIDの活用）**  
 ➡ [Noteで読む（有料記事）](https://note.com/ry0w3/n/n438dccdeb2ec)
