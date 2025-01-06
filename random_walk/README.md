@@ -34,7 +34,7 @@
 ➡ [Qiita記事を読む](https://qiita.com/your_qiita_link)
 
 📌 **Note 記事（DOI / CIDの活用）**  
-➡ [Noteで読む（有料記事）](https://note.com/)
+➡ [Noteで読む（有料記事）](https://note.com/ry0w3/n/n438dccdeb2ec)
 
 📌 **Booth で無料ダウンロード（GitHub ZIP）**  
 ➡ [Booth（無料版）](https://complex-dynamics.booth.pm/items/6457102)
