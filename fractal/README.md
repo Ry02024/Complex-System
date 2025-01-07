@@ -21,7 +21,7 @@
 ## 🏆 **ダウンロード**
 本プロジェクトのコードは **GitHub** だけでなく、**Booth** でも無料配布しています。
 
-- **GitHub（ソースコード）**: [こちら](#)
+- **GitHub（ソースコード）**: [こちら](https://github.com/Ry02024/Complex-System/blob/main/fractal/Koch_curve.ipynb)
 - **Booth（ZIP形式）**: [無料ダウンロード](#)（準備中）
 
 ---
