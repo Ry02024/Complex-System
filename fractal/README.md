@@ -14,8 +14,7 @@
 ## 📂 **ファイル構成**
 | **ファイル名**                     | **説明** |
 |--------------------------------|--------------------------------|
-| `koch_curve.py`               | Pythonスクリプト（コマンドラインで実行） |
-| `koch_curve_notebook.ipynb`    | Jupyter Notebook（Google Colab対応） |
+| `koch_curve.ipynb`    | Jupyter Notebook（Google Colab対応） |
 
 ---
 
