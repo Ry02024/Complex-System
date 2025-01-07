@@ -49,7 +49,7 @@
 ➡ [Booth（無料版）](#)
 
 📌 **Google Colab で実行**  
-➡ [Google Colab で開く](#)
+➡ [Google Colab で開く](https://colab.research.google.com/github/Ry02024/Complex-System/blob/main/fractal/Koch_curve.ipynb)
 
 ---
 
