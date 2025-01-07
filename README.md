@@ -36,10 +36,7 @@ python random_walk/random_walk.py
 Google Colabで実行する場合、`random_walk_notebook.ipynb` を開く。
 
 ### **フラクタル（コッホ曲線）**
-Pythonがインストールされている環境で以下を実行：
-```bash
-python koch_curve/koch_curve.py
-```
+
 Google Colabで実行する場合、`koch_curve_notebook.ipynb` を開く。
 
 ---
