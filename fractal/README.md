@@ -42,10 +42,10 @@
 📌 **Qiita 記事（コッホ曲線とフラクタルの解説）**  
 ➡ [Qiita記事を読む](https://qiita.com/ry033rdqiita/items/801c21b9151551f76a56)
 
-📌 **Note 記事（フラクタルの応用と圧縮技術）**  
+📌 **Note 記事（コッホ曲線とフラクタルの解説）**  
 ➡ [Noteで読む（有料記事）](#)
 
-📌 **Booth で無料ダウンロード（GitHub ZIP）**  
+📌 **Booth で無料ダウンロード（GitHub ZIP）**  （準備中）
 ➡ [Booth（無料版）](#)
 
 📌 **Google Colab で実行**  
