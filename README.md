@@ -26,7 +26,6 @@
 ### **3. ライフゲーム**
 `life_game/` ディレクトリ内に、以下の実装を用意しています。
 
-- `life_game.py` … Pythonスクリプト版
 - `life_game_notebook.ipynb` … Google Colab用ノートブック
 
 ---
@@ -45,12 +44,6 @@ Google Colabで実行する場合、`koch_curve_notebook.ipynb` を開く。
 ### **ライフゲーム**
 Google Colabで実行する場合、以下のリンクを開く：
 [Google Colabで開く](https://colab.research.google.com/github/Ry02024/Complex-System/blob/main/notebooks/life_game.ipynb)
-
-ローカル環境で実行する場合：
-```bash
-pip install numpy matplotlib
-python life_game.py
-```
 
 ---
 
@@ -85,11 +78,5 @@ python life_game.py
 ---
 
 ## **🔗 関連記事**
-✅ **Qiita記事：ランダムウォークで学ぶ複雑系の基礎**  
-➡ [Qiita](https://qiita.com/ry033rdqiita/items/0f5c99c90080f88d1860)  
-
-✅ **Note記事：フラクタル（コッホ曲線）**  
-➡ [Note](https://note.com/ry0w3/n/n83ad57bb0b21)  
-
 ✅ **GitHubリリース：v1.2 - ランダムウォーク, フラクタル & ライフゲームの実装**  
 ➡ [GitHub](https://github.com/Ry02024/Complex-System)
