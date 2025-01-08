@@ -55,20 +55,18 @@ life_game/
 ```
 
 ---
-
 ## **📌 関連リンク**
 ✅ **GitHub（ソースコード）**  
 ➡ [Complex-System/LifeGame](https://github.com/Ry02024/Complex-System/tree/main/life_game)  
 
 ✅ **Qiita（技術記事）**  
-➡ 準備中
+➡ [Qiitaで読む](https://qiita.com/ry033rdqiita/items/547f7f6204ea40e918c8)  
 
 ✅ **Note（プロジェクトの背景・解説）**  
-➡ 準備中
+➡ [Noteで読む](https://note.com/ry0w3/n/n87594c8a363b)  
 
 ✅ **Booth（無料ダウンロード）**  
-➡ 準備中
-
+➡ [Boothでダウンロード](https://complex-dynamics.booth.pm/items/6469444)
 ---
 
 ## **📌 まとめ**
