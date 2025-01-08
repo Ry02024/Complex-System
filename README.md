@@ -1,14 +1,12 @@
 # Complex System: 複雑系のシミュレーション
 
 ## **概要**
-本リポジトリでは、ランダムウォークやフラクタルをはじめとした **複雑系（Complex System）のシミュレーション** を扱います。
+本リポジトリでは、ランダムウォークやフラクタル、ライフゲームをはじめとした **複雑系（Complex System）のシミュレーション** を扱います。
 
 現在、以下のテーマを実装済みです：
 - **ランダムウォーク**（確率的な移動をシミュレーション）
 - **フラクタル（コッホ曲線）**（自己相似性・スケール不変性の可視化）
-
-今後、以下のテーマを追加予定です：
-- **ライフゲーム（セル・オートマトンを用いたシミュレーション）**
+- **ライフゲーム**（セル・オートマトンを用いた創発シミュレーション）
 
 ---
 
@@ -25,6 +23,12 @@
 
 - `koch_curve_notebook.ipynb` … Jupyter Notebook形式で、Google Colab で簡単に実行可能
 
+### **3. ライフゲーム**
+`life_game/` ディレクトリ内に、以下の実装を用意しています。
+
+- `life_game.py` … Pythonスクリプト版
+- `life_game_notebook.ipynb` … Google Colab用ノートブック
+
 ---
 
 ## **🚀 実行方法**
@@ -36,8 +40,17 @@ python random_walk/random_walk.py
 Google Colabで実行する場合、`random_walk_notebook.ipynb` を開く。
 
 ### **フラクタル（コッホ曲線）**
-
 Google Colabで実行する場合、`koch_curve_notebook.ipynb` を開く。
+
+### **ライフゲーム**
+Google Colabで実行する場合、以下のリンクを開く：
+[Google Colabで開く](https://colab.research.google.com/github/Ry02024/Complex-System/blob/main/notebooks/life_game.ipynb)
+
+ローカル環境で実行する場合：
+```bash
+pip install numpy matplotlib
+python life_game.py
+```
 
 ---
 
@@ -47,7 +60,7 @@ Google Colabで実行する場合、`koch_curve_notebook.ipynb` を開く。
 |-------------------|--------------------------------------|--------------------------------------------|---------------|
 | **ランダムウォーク** | 確率的移動をシミュレーション                 | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/random_walk) | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6457102) |
 | **フラクタル生成** | コッホ曲線などのフラクタル描画               | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/fractal)  | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6469235) |
-| **ライフゲーム**   | セル・オートマトンのシミュレーション         | 準備中                                     | 準備中        |
+| **ライフゲーム**   | セル・オートマトンのシミュレーション         | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/life_game)  | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6479123) |
 
 ---
 
@@ -64,6 +77,11 @@ Google Colabで実行する場合、`koch_curve_notebook.ipynb` を開く。
 - **アンテナ設計** … フラクタルアンテナ（小型・広帯域）
 - **カオス理論** … フラクタル次元を用いた市場モデリング
 
+### **ライフゲームの応用**
+- **創発のシミュレーション** … シンプルなルールから複雑なパターンが発生
+- **スマートシティのモデル化** … 都市構造や社会のシミュレーション
+- **AI・機械学習のデータ生成** … 自然なパターンの生成・分析
+
 ---
 
 ## **🔗 関連記事**
@@ -73,5 +91,5 @@ Google Colabで実行する場合、`koch_curve_notebook.ipynb` を開く。
 ✅ **Note記事：フラクタル（コッホ曲線）**  
 ➡ [Note](https://note.com/ry0w3/n/n83ad57bb0b21)  
 
-✅ **GitHubリリース：v1.1 - ランダムウォーク & フラクタルの実装**  
+✅ **GitHubリリース：v1.2 - ランダムウォーク, フラクタル & ライフゲームの実装**  
 ➡ [GitHub](https://github.com/Ry02024/Complex-System)
