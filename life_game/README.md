@@ -34,7 +34,7 @@
 
 [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PKX1IFVdZrAWJiNdROHXL5sCxpP_VInR?usp=sharing)
 
-### **📌 2. ローカル環境で実行する**
+### **📌 2. ローカル環境で実行する**（未実装）
 1. 必要なライブラリをインストール
    ```bash
    pip install numpy matplotlib
@@ -49,7 +49,7 @@
 ## **📂 ファイル構成**
 ```
 life_game/
-│── life_game.py                 # Pythonスクリプト版
+│── life_game.py                 # Pythonスクリプト版（未実装）
 │── life_game_notebook.ipynb      # Google Colab用ノートブック
 │── README.md                     # 本ファイル
 ```
