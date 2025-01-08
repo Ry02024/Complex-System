@@ -60,7 +60,7 @@ python life_game.py
 |-------------------|--------------------------------------|--------------------------------------------|---------------|
 | **ランダムウォーク** | 確率的移動をシミュレーション                 | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/random_walk) | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6457102) |
 | **フラクタル生成** | コッホ曲線などのフラクタル描画               | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/fractal)  | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6469235) |
-| **ライフゲーム**   | セル・オートマトンのシミュレーション         | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/life_game)  | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6479123) |
+| **ライフゲーム**   | セル・オートマトンのシミュレーション         | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/life_game)  | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6469444) |
 
 ---
 
