@@ -32,7 +32,7 @@
 ### **📌 1. Google Colabで実行する**
 ライフゲームの動作を **Google Colab で簡単に実行** できます。
 
-[![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ry02024/Complex-System/blob/main/notebooks/life_game.ipynb)
+[![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PKX1IFVdZrAWJiNdROHXL5sCxpP_VInR?usp=sharing)
 
 ### **📌 2. ローカル環境で実行する**
 1. 必要なライブラリをインストール
