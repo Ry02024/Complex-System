@@ -46,7 +46,7 @@ Google Colabで実行する場合、`koch_curve_notebook.ipynb` を開く。
 | プロジェクト       | 説明                                      | GitHub                                      | Booth          |
 |-------------------|--------------------------------------|--------------------------------------------|---------------|
 | **ランダムウォーク** | 確率的移動をシミュレーション                 | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/random_walk) | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6457102) |
-| **フラクタル生成** | コッホ曲線などのフラクタル描画               | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/fractal)  | [無料ダウンロード](#) （準備中）|
+| **フラクタル生成** | コッホ曲線などのフラクタル描画               | [GitHub](https://github.com/Ry02024/Complex-System/tree/main/fractal)  | [無料ダウンロード](https://complex-dynamics.booth.pm/items/6469235) |
 | **ライフゲーム**   | セル・オートマトンのシミュレーション         | 準備中                                     | 準備中        |
 
 ---
